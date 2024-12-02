@@ -4,14 +4,16 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "day1": "ts-node src/day-one.ts"
+        "day1-p1": "tsx src/day-one-p1.ts",
+        "day1-p2": "tsx src/day-one-p2.ts"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
         "@types/node": "^22.10.1",
-        "ts-node": "^10.9.2",
+        "fs": "0.0.1-security",
+        "tsx": "^4.19.2",
         "typescript": "^5.7.2"
     }
 }
