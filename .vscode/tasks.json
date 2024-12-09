@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run TS Script",
+            "type": "shell",
+            "command": "pnpm",
+            "args": [
+                "run",
+                "start", // The npm script name from package.json
+                "${input:scriptArg}"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "icon": {
+                "id": "run",
+                "color": "terminal.ansiCyan"
+            }
+        }
+    ],
+    "inputs": [
+        {
+            "id": "scriptArg",
+            "type": "promptString",
+            "description": "Enter the script identifier (e.g., 1a)"
+        }
+    ]
+}
