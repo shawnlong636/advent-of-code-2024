@@ -4,8 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "day1-p1": "tsx src/day-one-p1.ts",
-        "day1-p2": "tsx src/day-one-p2.ts"
+        "start": "tsx src/runner.ts"
     },
     "keywords": [],
     "author": "",

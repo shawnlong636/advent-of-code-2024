@@ -2,7 +2,7 @@ import * as path from "path";
 import * as fs from "fs";
 
 function main() {
-    const inputPath = path.resolve(__dirname, "../data/day-one-p2.txt");
+    const inputPath = path.resolve(__dirname, "../data/1b.txt");
 
     const list1: number[] = [];
     const counts: Map<number, number> = new Map();

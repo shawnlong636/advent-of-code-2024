@@ -2,7 +2,7 @@ import * as path from "path";
 import * as fs from "fs";
 
 function main() {
-    const inputPath = path.resolve(__dirname, "../data/day-one-p1.txt");
+    const inputPath = path.resolve(__dirname, "../data/1a.txt");
 
     const list1: number[] = [];
     let list2: number[] = [];
